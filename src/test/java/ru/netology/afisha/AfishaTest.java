@@ -91,7 +91,7 @@ public class AfishaTest {
         Afisha afisha = new Afisha();
 
         String[] expected = {  };
-        String[] actual = afisha.findAll();
+        String[] actual = afisha.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
     }
